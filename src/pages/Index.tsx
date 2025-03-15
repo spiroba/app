@@ -18,7 +18,7 @@ const Index = () => {
         <section className="mb-16 text-center">
           <h1 className="mb-4 text-4xl font-bold">App by Spiro</h1>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            Создаем инновационные мобильные приложения, которые делают жизнь проще
+            Создаем мобильные приложения, которые делают жизнь проще
           </p>
         </section>
 
