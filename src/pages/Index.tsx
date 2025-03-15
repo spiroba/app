@@ -7,7 +7,7 @@ const Index = () => {
     {
       title: "UpFlow",
       description: "Откройте для себя коллекцию вдохновляющих цитат в стильном оформлении. Делитесь мудростью в историях и постах, создавайте свои цитаты и сохраняйте любимые высказывания.",
-      imageUrl: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7",
+      imageUrl: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b",
       appStoreLink: "#",
     },
   ];
