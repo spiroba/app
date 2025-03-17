@@ -21,7 +21,7 @@ const Index = () => {
             <span className="relative z-10">App by Spiro</span>
             <span className="absolute -inset-1 rounded-lg blur-sm bg-accent/20 z-0"></span>
           </h1>
-          <p className="mx-auto max-w-2xl text-lg text-muted-foreground border-b border-accent/30 pb-4 inline-block shadow-neon mt-4">
+          <p className="mx-auto max-w-2xl text-lg text-muted-foreground border-b border-accent/30 pb-4 inline-block mt-4">
             Создаем мобильные приложения, которые делают жизнь проще
           </p>
         </section>
