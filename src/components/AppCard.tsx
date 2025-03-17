@@ -16,11 +16,11 @@ export const AppCard = ({ title, description, imageUrl, logoUrl, appStoreLink, g
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="relative overflow-hidden rounded-xl bg-muted p-6 backdrop-blur-lg border border-white/10"
+      className="relative overflow-hidden rounded-xl bg-muted p-6 backdrop-blur-lg border border-white/5 shadow-lg"
     >
       <div className="flex items-center mb-6">
         {logoUrl && (
-          <div className="mr-4 h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-[#0A1022] p-1 border border-blue-400/20">
+          <div className="mr-4 h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-[#0A1022] p-1 border border-accent/20">
             <img 
               src={logoUrl} 
               alt={`${title} logo`} 
@@ -41,7 +41,7 @@ export const AppCard = ({ title, description, imageUrl, logoUrl, appStoreLink, g
         {appStoreLink && (
           <a
             href={appStoreLink}
-            className="rounded-lg bg-[#33C3F0] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#33C3F0]/80"
+            className="rounded-lg bg-accent px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-accent/80"
           >
             App Store
           </a>
@@ -49,7 +49,7 @@ export const AppCard = ({ title, description, imageUrl, logoUrl, appStoreLink, g
         {googlePlayLink && (
           <a
             href={googlePlayLink}
-            className="rounded-lg bg-[#33C3F0] px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-[#33C3F0]/80"
+            className="rounded-lg bg-accent px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-accent/80"
           >
             Google Play
           </a>

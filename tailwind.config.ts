@@ -23,14 +23,14 @@ export default {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "#1A1F2C",
+        background: "#0E1116", // Dark background like in the image
         foreground: "#FFFFFF",
         muted: {
-          DEFAULT: "#222222",
+          DEFAULT: "#1A1D23", // Slightly lighter than background for cards
           foreground: "#A1A1AA",
         },
         accent: {
-          DEFAULT: "#7E69AB",
+          DEFAULT: "#33C3F0", // Bright blue accent color
           foreground: "#FFFFFF",
         },
       },
