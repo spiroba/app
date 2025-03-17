@@ -17,8 +17,11 @@ const Index = () => {
     <div className="min-h-screen bg-background text-foreground">
       <main className="container py-16">
         <section className="mb-16 text-center">
-          <h1 className="mb-4 text-5xl font-bold tracking-tight">App by Spiro</h1>
-          <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
+          <h1 className="mb-4 text-5xl font-bold tracking-tight relative inline-block">
+            <span className="relative z-10">App by Spiro</span>
+            <span className="absolute -inset-1 rounded-lg blur-sm bg-accent/20 z-0"></span>
+          </h1>
+          <p className="mx-auto max-w-2xl text-lg text-muted-foreground border-b border-accent/30 pb-4 inline-block shadow-neon">
             Создаем мобильные приложения, которые делают жизнь проще
           </p>
         </section>

@@ -33,10 +33,15 @@ export default {
           DEFAULT: "#33C3F0", // Bright blue accent color
           foreground: "#FFFFFF",
         },
+        neon: {
+          blue: "#33C3F0",
+          purple: "#8B5CF6",
+        },
       },
       animation: {
         "fade-up": "fadeUp 0.5s ease-out",
         "fade-down": "fadeDown 0.5s ease-out",
+        "pulse-slow": "pulseGlow 3s infinite",
       },
       keyframes: {
         fadeUp: {
@@ -47,6 +52,14 @@ export default {
           "0%": { opacity: "0", transform: "translateY(-20px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
+        pulseGlow: {
+          "0%, 100%": { boxShadow: "0 0 8px 2px rgba(51, 195, 240, 0.2)" },
+          "50%": { boxShadow: "0 0 15px 5px rgba(51, 195, 240, 0.4)" },
+        },
+      },
+      boxShadow: {
+        neon: "0 0 5px 2px rgba(51, 195, 240, 0.3), 0 0 10px rgba(51, 195, 240, 0.2), inset 0 0 5px rgba(51, 195, 240, 0.05)",
+        "neon-strong": "0 0 7px 3px rgba(51, 195, 240, 0.5), 0 0 15px rgba(51, 195, 240, 0.3), inset 0 0 7px rgba(51, 195, 240, 0.1)",
       },
     },
   },

@@ -9,10 +9,12 @@ export const ContactSection = () => {
           Техническая поддержка
         </h2>
         <div className="flex justify-center">
-          <div className="flex flex-col items-center text-center">
-            <Mail className="mb-4 h-8 w-8 text-accent" />
+          <div className="flex flex-col items-center text-center p-6 rounded-xl border border-accent/30 shadow-neon bg-muted/50">
+            <div className="p-4 rounded-full border border-accent/40 shadow-neon mb-4">
+              <Mail className="h-8 w-8 text-accent" />
+            </div>
             <h3 className="mb-2 text-lg font-semibold text-foreground">Email</h3>
-            <p className="text-muted-foreground">spiro.boris@yandex.ru</p>
+            <p className="text-muted-foreground hover:text-accent transition-colors">spiro.boris@yandex.ru</p>
           </div>
         </div>
       </div>
