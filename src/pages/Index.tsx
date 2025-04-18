@@ -12,6 +12,13 @@ const Index = () => {
       logoUrl: "/lovable-uploads/26455311-5077-48d7-975b-75a264bc2206.png",
       appStoreLink: "#",
     },
+    {
+      title: "TaskBite",
+      description: "TaskBites — твой новый стиль продуктивности! Хватит тонуть в бесконечных списках дел! TaskBites — это не просто планировщик, а твой личный тренер по задачам, который помогает разбивать большие цели на маленькие победы каждый день.",
+      imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
+      logoUrl: "/lovable-uploads/26455311-5077-48d7-975b-75a264bc2206.png",
+      appStoreLink: "#",
+    },
   ];
 
   return (
@@ -28,7 +35,7 @@ const Index = () => {
         </section>
 
         <section className="mb-16">
-          <div className="grid gap-8 md:grid-cols-1 max-w-xl mx-auto">
+          <div className="grid gap-8 md:grid-cols-2 max-w-6xl mx-auto">
             {apps.map((app, index) => (
               <AppCard key={index} {...app} />
             ))}
