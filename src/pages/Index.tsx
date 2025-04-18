@@ -1,7 +1,6 @@
 
 import { AppCard } from "@/components/AppCard";
 import { ContactSection } from "@/components/ContactSection";
-import { Link } from "react-router-dom";
 
 const Index = () => {
   const apps = [
@@ -11,6 +10,7 @@ const Index = () => {
       imageUrl: "https://images.unsplash.com/photo-1518495973542-4542c06a5843",
       logoUrl: "/lovable-uploads/26455311-5077-48d7-975b-75a264bc2206.png",
       appStoreLink: "#",
+      privacyLink: "/privacy",
     },
     {
       title: "TaskBites",
@@ -18,6 +18,7 @@ const Index = () => {
       imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
       logoUrl: "/lovable-uploads/4c8bbcd1-0c69-43ce-bc56-0c199d6c2067.png",
       appStoreLink: "#",
+      privacyLink: "/taskbites-privacy",
     },
   ];
 
@@ -43,12 +44,6 @@ const Index = () => {
         </section>
 
         <ContactSection />
-        
-        <footer className="mt-16 text-center">
-          <Link to="/privacy" className="text-accent hover:text-accent/80 transition-colors">
-            Политика конфиденциальности
-          </Link>
-        </footer>
       </main>
     </div>
   );

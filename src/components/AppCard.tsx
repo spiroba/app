@@ -1,5 +1,6 @@
 
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 interface AppCardProps {
   title: string;
@@ -8,9 +9,10 @@ interface AppCardProps {
   logoUrl?: string;
   appStoreLink?: string;
   googlePlayLink?: string;
+  privacyLink?: string;
 }
 
-export const AppCard = ({ title, description, imageUrl, logoUrl, appStoreLink, googlePlayLink }: AppCardProps) => {
+export const AppCard = ({ title, description, imageUrl, logoUrl, appStoreLink, googlePlayLink, privacyLink }: AppCardProps) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -20,7 +22,7 @@ export const AppCard = ({ title, description, imageUrl, logoUrl, appStoreLink, g
     >
       <div className="flex items-center mb-6">
         {logoUrl && (
-          <div className="mr-4 h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-[#0A1022] p-1 border border-accent/40 shadow-neon">
+          <div className="mr-4 h-16 w-16 flex-shrink-0 overflow-hidden rounded-lg bg-[#0A1022] p-1 border border-accent/40 shadow-neon">
             <img 
               src={logoUrl} 
               alt={`${title} logo`} 
@@ -37,7 +39,7 @@ export const AppCard = ({ title, description, imageUrl, logoUrl, appStoreLink, g
       
       <p className="mb-4 text-muted-foreground">{description}</p>
       
-      <div className="flex gap-4">
+      <div className="flex flex-wrap gap-4 items-center">
         {appStoreLink && (
           <a
             href={appStoreLink}
@@ -53,6 +55,14 @@ export const AppCard = ({ title, description, imageUrl, logoUrl, appStoreLink, g
           >
             Google Play
           </a>
+        )}
+        {privacyLink && (
+          <Link
+            to={privacyLink}
+            className="text-sm text-accent hover:text-accent/80 transition-colors"
+          >
+            Политика конфиденциальности
+          </Link>
         )}
       </div>
     </motion.div>
