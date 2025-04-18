@@ -13,10 +13,10 @@ const Index = () => {
       appStoreLink: "#",
     },
     {
-      title: "TaskBite",
+      title: "TaskBites",
       description: "TaskBites — твой новый стиль продуктивности! Хватит тонуть в бесконечных списках дел! TaskBites — это не просто планировщик, а твой личный тренер по задачам, который помогает разбивать большие цели на маленькие победы каждый день.",
       imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
-      logoUrl: "/lovable-uploads/26455311-5077-48d7-975b-75a264bc2206.png",
+      logoUrl: "/lovable-uploads/64fcd10a-2a4d-4952-9498-2e108bd0e176.png",
       appStoreLink: "#",
     },
   ];
