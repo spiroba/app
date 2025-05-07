@@ -20,6 +20,14 @@ const Index = () => {
       appStoreLink: "#",
       privacyLink: "/taskbites-privacy",
     },
+    {
+      title: "FlowTime",
+      description: "",
+      imageUrl: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+      logoUrl: "/lovable-uploads/64fcd10a-2a4d-4952-9498-2e108bd0e176.png",
+      appStoreLink: "#",
+      privacyLink: "/flowtime-privacy",
+    },
   ];
 
   return (
@@ -36,7 +44,7 @@ const Index = () => {
         </section>
 
         <section className="mb-16">
-          <div className="grid gap-8 md:grid-cols-2 max-w-6xl mx-auto">
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
             {apps.map((app, index) => (
               <AppCard key={index} {...app} />
             ))}
