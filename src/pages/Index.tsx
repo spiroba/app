@@ -1,4 +1,3 @@
-
 import { AppCard } from "@/components/AppCard";
 import { ContactSection } from "@/components/ContactSection";
 
@@ -9,7 +8,7 @@ const Index = () => {
       description:
         "Откройте для себя коллекцию вдохновляющих цитат в стильном оформлении. Делитесь мудростью в историях и постах, создавайте свои цитаты и сохраняйте любимые высказывания.",
       logoUrl: "/lovable-uploads/26455311-5077-48d7-975b-75a264bc2206.png",
-      appStoreLink: "#",
+      appStoreLink: "https://apps.apple.com/ru/app/upflow/id6743680634",
       privacyLink: "/privacy",
     },
     {
@@ -17,7 +16,7 @@ const Index = () => {
       description:
         "TaskBites — твой новый стиль продуктивности! Хватит тонуть в бесконечных списках дел! TaskBites — это не просто планировщик, а твой личный тренер по задачам, который помогает разбивать большие цели на маленькие победы каждый день.",
       logoUrl: "/lovable-uploads/4c8bbcd1-0c69-43ce-bc56-0c199d6c2067.png",
-      appStoreLink: "#",
+      appStoreLink: "https://apps.apple.com/ru/app/taskbites/id6744850540",
       privacyLink: "/taskbites-privacy",
     },
     {
