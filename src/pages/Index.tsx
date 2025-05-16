@@ -6,7 +6,8 @@ const Index = () => {
   const apps = [
     {
       title: "UpFlow",
-      description: "Откройте для себя коллекцию вдохновляющих цитат в стильном оформлении. Делитесь мудростью в историях и постах, создавайте свои цитаты и сохраняйте любимые высказывания.",
+      description:
+        "Откройте для себя коллекцию вдохновляющих цитат в стильном оформлении. Делитесь мудростью в историях и постах, создавайте свои цитаты и сохраняйте любимые высказывания.",
       imageUrl: "https://images.unsplash.com/photo-1518495973542-4542c06a5843",
       logoUrl: "/lovable-uploads/26455311-5077-48d7-975b-75a264bc2206.png",
       appStoreLink: "#",
@@ -14,7 +15,8 @@ const Index = () => {
     },
     {
       title: "TaskBites",
-      description: "TaskBites — твой новый стиль продуктивности! Хватит тонуть в бесконечных списках дел! TaskBites — это не просто планировщик, а твой личный тренер по задачам, который помогает разбивать большие цели на маленькие победы каждый день.",
+      description:
+        "TaskBites — твой новый стиль продуктивности! Хватит тонуть в бесконечных списках дел! TaskBites — это не просто планировщик, а твой личный тренер по задачам, который помогает разбивать большие цели на маленькие победы каждый день.",
       imageUrl: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d",
       logoUrl: "/lovable-uploads/4c8bbcd1-0c69-43ce-bc56-0c199d6c2067.png",
       appStoreLink: "#",
@@ -22,9 +24,10 @@ const Index = () => {
     },
     {
       title: "FlowTime",
-      description: "",
+      description:
+        "Создайте здоровые привычки и достигайте целей с FlowTime – вашим персональным помощником в развитии и самосовершенствовании!",
       imageUrl: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-      logoUrl: "/lovable-uploads/64fcd10a-2a4d-4952-9498-2e108bd0e176.png",
+      logoUrl: "/lovable-uploads/35127712-f767-4f65-a288-247b338741d1.png",
       appStoreLink: "#",
       privacyLink: "/flowtime-privacy",
     },
