@@ -12,10 +12,10 @@ const Index = () => {
       privacyLink: "/privacy",
     },
     {
-      title: "TaskBites",
+      title: "TaskMonster",
       description:
         "TaskBites — твой новый стиль продуктивности! Хватит тонуть в бесконечных списках дел! TaskBites — это не просто планировщик, а твой личный тренер по задачам, который помогает разбивать большие цели на маленькие победы каждый день.",
-      logoUrl: "/lovable-uploads/4c8bbcd1-0c69-43ce-bc56-0c199d6c2067.png",
+      logoUrl: "/lovable-uploads/d649c7e1-9e3a-42c4-b979-03bf0777c7fe.png",
       appStoreLink: "https://apps.apple.com/ru/app/taskbites/id6744850540",
       privacyLink: "/taskbites-privacy",
     },
