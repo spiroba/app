@@ -27,6 +27,14 @@ const Index = () => {
       appStoreLink: "#",
       privacyLink: "/flowtime-privacy",
     },
+    {
+      title: "ScanMe",
+      description:
+        "Профессиональный сканер документов с ИИ-переводчиком. Сканируйте, распознавайте текст и переводите документы в высоком качестве. Работает полностью автономно без передачи данных.",
+      logoUrl: "/lovable-uploads/64fcd10a-2a4d-4952-9498-2e108bd0e176.png",
+      appStoreLink: "#",
+      privacyLink: "/scanme-privacy",
+    },
   ];
 
   return (
