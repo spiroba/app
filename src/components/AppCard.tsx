@@ -8,6 +8,7 @@ interface AppCardProps {
   logoUrl?: string;
   appStoreLink?: string;
   googlePlayLink?: string;
+  ruStoreLink?: string;
   privacyLink?: string;
 }
 
@@ -17,6 +18,7 @@ export const AppCard = ({
   logoUrl,
   appStoreLink,
   googlePlayLink,
+  ruStoreLink,
   privacyLink,
 }: AppCardProps) => {
   return (
@@ -52,6 +54,14 @@ export const AppCard = ({
             className="rounded bg-accent px-3 py-1.5 text-xs font-medium text-white transition-all hover:bg-accent/80 hover:shadow-neon-strong border border-accent/50 shadow-neon"
           >
             Google Play
+          </a>
+        )}
+        {ruStoreLink && (
+          <a
+            href={ruStoreLink}
+            className="rounded bg-accent px-3 py-1.5 text-xs font-medium text-white transition-all hover:bg-accent/80 hover:shadow-neon-strong border border-accent/50 shadow-neon"
+          >
+            RuStore
           </a>
         )}
         {privacyLink && (

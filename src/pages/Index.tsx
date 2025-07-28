@@ -31,7 +31,15 @@ const Index = () => {
       title: "ScanMe",
       description:
         "Профессиональный сканер документов с ИИ-переводчиком. Сканируйте, распознавайте текст и переводите документы в высоком качестве. Работает полностью автономно без передачи данных.",
-      logoUrl: "/lovable-uploads/64fcd10a-2a4d-4952-9498-2e108bd0e176.png",
+      logoUrl: "/lovable-uploads/0f0a4eb5-f686-462b-94b4-bd904041ac7f.png",
+      ruStoreLink: "https://www.rustore.ru/catalog/app/com.scanme.scanner",
+      privacyLink: "/scanme-privacy",
+    },
+    {
+      title: "ScanMe",
+      description:
+        "Профессиональный сканер документов с ИИ-переводчиком. Сканируйте, распознавайте текст и переводите документы в высоком качестве. Работает полностью автономно без передачи данных.",
+      logoUrl: "/lovable-uploads/0f0a4eb5-f686-462b-94b4-bd904041ac7f.png",
       appStoreLink: "#",
       privacyLink: "/scanme-privacy",
     },
