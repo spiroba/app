@@ -41,7 +41,7 @@ const Index = () => {
         "Профессиональный сканер документов с ИИ-переводчиком. Сканируйте, распознавайте текст и переводите документы в высоком качестве. Работает полностью автономно без передачи данных.",
       logoUrl: "/lovable-uploads/c014b09c-56c2-49ac-9fb8-107fc9264c69.png",
       appStoreLink: "#",
-      privacyLink: "/scanme-privacy",
+      privacyLink: "/scanme-ios-privacy",
     },
   ];
 

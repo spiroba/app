@@ -9,6 +9,7 @@ import Privacy from "./pages/Privacy";
 import TaskBitesPrivacy from "./pages/TaskBitesPrivacy";
 import FlowTimePrivacy from "./pages/FlowTimePrivacy";
 import ScanMePrivacy from "./pages/ScanMePrivacy";
+import ScanMeIOSPrivacy from "./pages/ScanMeIOSPrivacy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,6 +26,7 @@ const App = () => (
           <Route path="/taskbites-privacy" element={<TaskBitesPrivacy />} />
           <Route path="/flowtime-privacy" element={<FlowTimePrivacy />} />
           <Route path="/scanme-privacy" element={<ScanMePrivacy />} />
+          <Route path="/scanme-ios-privacy" element={<ScanMeIOSPrivacy />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
