@@ -39,7 +39,7 @@ const Index = () => {
       title: "ScanMe",
       description:
         "Профессиональный сканер документов с ИИ-переводчиком. Сканируйте, распознавайте текст и переводите документы в высоком качестве. Работает полностью автономно без передачи данных.",
-      logoUrl: "/lovable-uploads/0f0a4eb5-f686-462b-94b4-bd904041ac7f.png",
+      logoUrl: "/lovable-uploads/c014b09c-56c2-49ac-9fb8-107fc9264c69.png",
       appStoreLink: "#",
       privacyLink: "/scanme-privacy",
     },
