@@ -43,6 +43,14 @@ const Index = () => {
       appStoreLink: "#",
       privacyLink: "/scanme-ios-privacy",
     },
+    {
+      title: "Checkers",
+      description:
+        "Классическая игра в шашки с современным дизайном. Играйте против ИИ или с друзьями. Улучшайте свои навыки с различными уровнями сложности.",
+      logoUrl: "/lovable-uploads/ba599e25-5b12-4f2e-88fb-790c0b89b639.png",
+      appStoreLink: "#",
+      privacyLink: "/checkers-privacy",
+    },
   ];
 
   return (
