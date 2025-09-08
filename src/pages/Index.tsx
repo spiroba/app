@@ -55,7 +55,7 @@ const Index = () => {
       title: "CleanUp Guru",
       description:
         "Профессиональная очистка памяти iPhone с ИИ! Ваш iPhone переполнен? CleanUp Guru - это умный cleaner для очистки телефона, который поможет освободить память и навести порядок в галерее с помощью искусственного интеллекта.",
-      logoUrl: "/lovable-uploads/b8b9b323-6950-40ec-b897-594902848411.png",
+      logoUrl: "/lovable-uploads/18f6b23b-ef17-4145-8f61-46d607310b97.png",
       appStoreLink: "#",
       privacyLink: "/cleanup-guru-privacy",
     },
