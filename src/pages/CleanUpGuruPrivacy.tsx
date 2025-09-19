@@ -191,12 +191,204 @@ const CleanUpGuruPrivacy = () => {
           </section>
         </div>
 
+        {/* English Version */}
+        <div className="mt-16 pt-16 border-t border-border">
+          <h1 className="text-3xl font-bold mb-8 text-center">
+            Privacy Policy — CleanUp Guru
+          </h1>
+          
+          <div className="prose prose-lg max-w-none space-y-8">
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
+              <p className="mb-4">
+                We value your privacy and strive to protect your personal data. 
+                This Privacy Policy explains how the <strong>Cleaner</strong> app collects, 
+                uses, and protects your information.
+              </p>
+              <p className="font-semibold">
+                Main principle: All analysis and data processing occurs locally on your device. 
+                We do not transfer your personal data, photos, or contacts to third parties.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">2. What data we process</h2>
+              
+              <h3 className="text-xl font-semibold mb-3">2.1 Photos and media files</h3>
+              <ul className="list-disc pl-6 mb-4 space-y-2">
+                <li><strong>Access:</strong> The app accesses your photo gallery to analyze duplicates, quality, and file sizes</li>
+                <li><strong>Processing:</strong> Analysis occurs exclusively on your device using Vision Framework</li>
+                <li><strong>Storage:</strong> We do not save, copy, or transfer your photos</li>
+                <li><strong>Purpose:</strong> Finding duplicates, blurred images, large videos, and storage optimization</li>
+              </ul>
+
+              <h3 className="text-xl font-semibold mb-3">2.2 Contacts</h3>
+              <ul className="list-disc pl-6 mb-4 space-y-2">
+                <li><strong>Access:</strong> The app may request access to contacts to find duplicates</li>
+                <li><strong>Processing:</strong> Analysis occurs locally to detect duplicate entries</li>
+                <li><strong>Storage:</strong> Contact data is not saved in the app and not transferred to third parties</li>
+                <li><strong>Purpose:</strong> Address book optimization and duplicate removal</li>
+              </ul>
+
+              <h3 className="text-xl font-semibold mb-3">2.3 Technical information</h3>
+              <ul className="list-disc pl-6 mb-4 space-y-2">
+                <li><strong>Device information:</strong> iPhone model, iOS version, available storage space</li>
+                <li><strong>Usage statistics:</strong> Number of duplicates found, freed space</li>
+                <li><strong>App settings:</strong> Selected language, theme, scanning frequency</li>
+              </ul>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">3. How we use your data</h2>
+              
+              <h3 className="text-xl font-semibold mb-3">3.1 Core functions</h3>
+              <ul className="list-disc pl-6 mb-4 space-y-2">
+                <li><strong>Duplicate analysis:</strong> Using AI to find identical photos</li>
+                <li><strong>Quality assessment:</strong> Identifying blurred or low-quality images</li>
+                <li><strong>Content categorization:</strong> Classifying photos by type (screenshots, selfies, documents)</li>
+                <li><strong>Storage optimization:</strong> Calculating potential space savings</li>
+              </ul>
+
+              <h3 className="text-xl font-semibold mb-3">3.2 App improvement</h3>
+              <ul className="list-disc pl-6 mb-4 space-y-2">
+                <li><strong>Performance analytics:</strong> Analysis time, number of processed files</li>
+                <li><strong>Algorithm optimization:</strong> Improving duplicate detection accuracy</li>
+                <li><strong>User experience:</strong> Adapting interface to user preferences</li>
+              </ul>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">4. Data security</h2>
+              
+              <h3 className="text-xl font-semibold mb-3">4.1 Local processing</h3>
+              <ul className="list-disc pl-6 mb-4 space-y-2">
+                <li>All analysis is performed on your device</li>
+                <li>No data transmission to external servers</li>
+                <li>Using built-in iOS APIs for secure data access</li>
+              </ul>
+
+              <h3 className="text-xl font-semibold mb-3">4.2 Information protection</h3>
+              <ul className="list-disc pl-6 mb-4 space-y-2">
+                <li><strong>Encryption:</strong> All app data is protected by iOS system encryption</li>
+                <li><strong>Limited access:</strong> The app requests only minimally necessary permissions</li>
+                <li><strong>Isolated environment:</strong> Operating in iOS sandbox to prevent data leaks</li>
+              </ul>
+
+              <h3 className="text-xl font-semibold mb-3">4.3 User control</h3>
+              <ul className="list-disc pl-6 mb-4 space-y-2">
+                <li><strong>Permission revocation:</strong> You can revoke photo or contact access in iOS Settings at any time</li>
+                <li><strong>Data deletion:</strong> All local data is automatically deleted when the app is removed</li>
+              </ul>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">5. Data sharing with third parties</h2>
+              <p className="font-semibold mb-4">We DO NOT share your personal data with third parties.</p>
+              
+              <h3 className="text-xl font-semibold mb-3">5.1 Exceptions</h3>
+              <p className="mb-2">Data may be shared only in the following cases:</p>
+              <ul className="list-disc pl-6 mb-4 space-y-2">
+                <li><strong>Legal requirement:</strong> Upon receiving a justified request from law enforcement</li>
+                <li><strong>Rights protection:</strong> To protect our rights, user safety, or public interests</li>
+              </ul>
+
+              <h3 className="text-xl font-semibold mb-3">5.2 Anonymous statistics</h3>
+              <ul className="list-disc pl-6 mb-4 space-y-2">
+                <li>We may collect anonymized app usage statistics</li>
+                <li>This information contains no personal data and cannot be linked to a specific user</li>
+              </ul>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">6. International data transfer</h2>
+              <p>
+                Since all processing occurs locally on your device, 
+                <strong> no international transfer of personal data occurs</strong>.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">7. Data storage</h2>
+              
+              <h3 className="text-xl font-semibold mb-3">7.1 Local storage</h3>
+              <ul className="list-disc pl-6 mb-4 space-y-2">
+                <li><strong>Scan history:</strong> We store results of recent analyses for quick access</li>
+                <li><strong>User settings:</strong> We save your preferences (language, theme, cleaning frequency)</li>
+                <li><strong>Storage duration:</strong> Until app deletion or user data clearing</li>
+              </ul>
+
+              <h3 className="text-xl font-semibold mb-3">7.2 Automatic deletion</h3>
+              <ul className="list-disc pl-6 mb-4 space-y-2">
+                <li><strong>Temporary files:</strong> Automatically deleted after analysis completion</li>
+                <li><strong>Data cache:</strong> Cleared when memory limits are exceeded</li>
+                <li><strong>History:</strong> Old records automatically deleted after 30 days</li>
+              </ul>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">8. User rights</h2>
+              <p className="mb-4">In accordance with applicable law, you have the following rights:</p>
+              
+              <h3 className="text-xl font-semibold mb-3">8.1 Access and control</h3>
+              <ul className="list-disc pl-6 mb-4 space-y-2">
+                <li><strong>Data viewing:</strong> View all data processed by the app in the "Statistics" section</li>
+                <li><strong>Settings modification:</strong> Configure data processing parameters at any time</li>
+                <li><strong>Data deletion:</strong> Clear history and cache in app settings</li>
+              </ul>
+
+              <h3 className="text-xl font-semibold mb-3">8.2 Consent withdrawal</h3>
+              <ul className="list-disc pl-6 mb-4 space-y-2">
+                <li><strong>Permission disabling:</strong> Revoke photo or contact access in iOS Settings</li>
+                <li><strong>Function limitation:</strong> Use only basic functions without personal data access</li>
+              </ul>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">9. Children and privacy</h2>
+              <p className="mb-4">
+                Our app is not intended for children under 13 years old. 
+                We do not knowingly collect personal data from children under 13.
+              </p>
+              <p className="font-semibold">
+                If you are a parent or guardian and learn that your child has provided us with personal data, 
+                please contact us.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">10. Privacy Policy changes</h2>
+              
+              <h3 className="text-xl font-semibold mb-3">10.1 Change notification</h3>
+              <ul className="list-disc pl-6 mb-4 space-y-2">
+                <li>We may update this Privacy Policy from time to time</li>
+                <li>Significant changes will be communicated through app updates</li>
+                <li>The last update date is indicated at the beginning of the document</li>
+              </ul>
+
+              <h3 className="text-xl font-semibold mb-3">10.2 Continued use</h3>
+              <p>
+                By continuing to use the app after changes are made, 
+                you agree to the updated Privacy Policy.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold mb-4">11. Contact information</h2>
+              <p className="mb-4">
+                If you have questions about this Privacy Policy or your data processing, 
+                contact us:
+              </p>
+              <p className="font-semibold">Email: spiro.boris@yandex.ru</p>
+            </section>
+          </div>
+        </div>
+
         <div className="mt-12 text-center">
           <a 
             href="/" 
             className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
           >
-            Вернуться на главную
+            Вернуться на главную / Back to Home
           </a>
         </div>
       </div>
