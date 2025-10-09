@@ -59,6 +59,14 @@ const Index = () => {
       appStoreLink: "#",
       privacyLink: "/cleanup-guru-privacy",
     },
+    {
+      title: "FitSteps",
+      description:
+        "Создавайте персональные фитнес-тренировки и достигайте своих целей! FitSteps - ваш умный тренер для построения идеальных программ упражнений.",
+      logoUrl: "/lovable-uploads/fitsteps-icon.png",
+      appStoreLink: "#",
+      privacyLink: "/fitsteps-privacy",
+    },
   ];
 
   return (
