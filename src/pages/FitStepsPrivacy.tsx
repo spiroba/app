@@ -195,183 +195,241 @@ const FitStepsPrivacy = () => {
           <h1 className="text-3xl font-bold mb-8 text-center">Политика конфиденциальности - FitSteps</h1>
           
           <section>
-            <h2 className="text-2xl font-semibold mb-4">1. Введение</h2>
+            <h2 className="text-2xl font-semibold mb-4">1. ВВЕДЕНИЕ</h2>
             <p className="text-muted-foreground leading-relaxed">
-              Мы ценим вашу конфиденциальность и стремимся защищать ваши персональные данные. Данная Политика конфиденциальности объясняет, как приложение <strong>FitSteps</strong> собирает, использует и защищает вашу информацию.
+              Благодарим вас за использование FitSteps ("Приложение"). Ваша конфиденциальность чрезвычайно важна для нас. Эта Политика конфиденциальности объясняет, как мы собираем, используем, храним и защищаем вашу информацию при использовании нашего мобильного приложения для iOS.
             </p>
             <p className="text-muted-foreground leading-relaxed mt-2">
-              <strong>Главный принцип:</strong> Все анализы и обработка данных происходят <strong>локально на вашем устройстве</strong>. Мы не передаем ваши персональные данные, информацию о тренировках или показатели здоровья третьим лицам.
+              <strong>ВАЖНО:</strong> FitSteps — это приложение с приоритетом конфиденциальности. Мы <strong>НЕ собираем, не передаем и не продаем</strong> ваши персональные данные третьим лицам.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">2. Какие данные мы обрабатываем</h2>
+            <h2 className="text-2xl font-semibold mb-4">2. ИНФОРМАЦИЯ, КОТОРУЮ МЫ СОБИРАЕМ</h2>
             
-            <h3 className="text-xl font-semibold mb-3 mt-4">2.1 Данные тренировок</h3>
-            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-              <li><strong>Доступ:</strong> Приложение хранит ваши пользовательские тренировки, упражнения и планы тренировок</li>
-              <li><strong>Обработка:</strong> Все данные хранятся и обрабатываются локально на вашем устройстве</li>
-              <li><strong>Хранение:</strong> Мы не создаем резервные копии, не копируем и не передаем данные ваших тренировок на внешние серверы</li>
-              <li><strong>Цель:</strong> Создание персонализированных фитнес-программ и отслеживание вашего прогресса</li>
-            </ul>
-
-            <h3 className="text-xl font-semibold mb-3 mt-4">2.2 Показатели здоровья (опционально)</h3>
-            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-              <li><strong>Доступ:</strong> С вашего разрешения приложение может получать доступ к данным HealthKit</li>
-              <li><strong>Обработка:</strong> Данные о здоровье остаются на вашем устройстве и обрабатываются локально</li>
-              <li><strong>Хранение:</strong> Мы не храним и не передаем показатели здоровья на внешние серверы</li>
-              <li><strong>Цель:</strong> Интеграция с отслеживанием фитнеса и оптимизация тренировок</li>
-            </ul>
-
-            <h3 className="text-xl font-semibold mb-3 mt-4">2.3 Техническая информация</h3>
-            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-              <li><strong>Информация об устройстве:</strong> Модель iPhone, версия iOS</li>
-              <li><strong>Статистика использования:</strong> Количество созданных тренировок, выполненных упражнений</li>
-              <li><strong>Настройки приложения:</strong> Выбранный язык, тема, настройки уведомлений</li>
-            </ul>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">3. Как мы используем ваши данные</h2>
-            
-            <h3 className="text-xl font-semibold mb-3 mt-4">3.1 Основные функции</h3>
-            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-              <li><strong>Создание тренировок:</strong> Построение пользовательских программ упражнений и тренировочных планов</li>
-              <li><strong>Отслеживание прогресса:</strong> Мониторинг вашего фитнес-путешествия и достижений</li>
-              <li><strong>Библиотека упражнений:</strong> Управление и организация вашей базы данных упражнений</li>
-              <li><strong>Напоминания:</strong> Отправка уведомлений о тренировках на основе вашего расписания</li>
-            </ul>
-
-            <h3 className="text-xl font-semibold mb-3 mt-4">3.2 Улучшение приложения</h3>
-            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-              <li><strong>Аналитика производительности:</strong> Время загрузки приложения, паттерны использования функций</li>
-              <li><strong>Пользовательский опыт:</strong> Оптимизация интерфейса на основе предпочтений пользователей</li>
-            </ul>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">4. Безопасность данных</h2>
-            
-            <h3 className="text-xl font-semibold mb-3 mt-4">4.1 Локальная обработка</h3>
-            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-              <li><strong>Вся обработка происходит на вашем устройстве</strong></li>
-              <li><strong>Нет передачи данных на внешние серверы</strong></li>
-              <li><strong>Использование встроенных API iOS для безопасного доступа к данным</strong></li>
-            </ul>
-
-            <h3 className="text-xl font-semibold mb-3 mt-4">4.2 Защита информации</h3>
-            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-              <li><strong>Шифрование:</strong> Все данные приложения защищены системным шифрованием iOS</li>
-              <li><strong>Ограниченный доступ:</strong> Приложение запрашивает только минимально необходимые разрешения</li>
-              <li><strong>Изолированная среда:</strong> Работа в песочнице iOS для предотвращения утечек данных</li>
-            </ul>
-
-            <h3 className="text-xl font-semibold mb-3 mt-4">4.3 Контроль пользователя</h3>
-            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-              <li><strong>Отзыв разрешений:</strong> Вы можете в любой момент отозвать доступ к данным о здоровье в Настройках iOS</li>
-              <li><strong>Удаление данных:</strong> При удалении приложения все локальные данные автоматически удаляются</li>
-            </ul>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">5. Передача данных третьим лицам</h2>
-            <p className="text-muted-foreground leading-relaxed">
-              <strong>Мы НЕ передаем ваши персональные данные третьим лицам.</strong>
-            </p>
-            
-            <h3 className="text-xl font-semibold mb-3 mt-4">5.1 Исключения</h3>
-            <p className="text-muted-foreground leading-relaxed">
-              Данные могут быть переданы только в следующих случаях:
+            <h3 className="text-xl font-semibold mb-3 mt-4">2.1 Локальные данные</h3>
+            <p className="text-muted-foreground leading-relaxed mb-2">
+              Все данные о ваших тренировках хранятся исключительно на вашем устройстве:
             </p>
             <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-              <li><strong>По требованию закона:</strong> При получении обоснованного запроса от правоохранительных органов</li>
-              <li><strong>Защита прав:</strong> Для защиты наших прав, безопасности пользователей или общественных интересов</li>
+              <li>Программы тренировок и упражнения</li>
+              <li>История тренировочных сессий</li>
+              <li>Подходы, веса и повторения</li>
+              <li>Фотографии упражнений (хранятся только локально)</li>
+              <li>Заметки и настройки</li>
+              <li>Статистика и достижения</li>
             </ul>
 
-            <h3 className="text-xl font-semibold mb-3 mt-4">5.2 Анонимная статистика</h3>
+            <h3 className="text-xl font-semibold mb-3 mt-4">2.2 Данные Apple Health (опционально)</h3>
+            <p className="text-muted-foreground leading-relaxed mb-2">
+              При вашем согласии приложение может:
+            </p>
             <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-              <li>Мы можем собирать обезличенную статистику использования приложения</li>
-              <li>Данная информация не содержит персональных данных и не может быть связана с конкретным пользователем</li>
+              <li>Записывать данные о тренировках в приложение Здоровье (Apple Health)</li>
+              <li>Читать данные о физической активности для улучшения статистики</li>
             </ul>
-          </section>
+            <p className="text-muted-foreground leading-relaxed mt-2">
+              <strong>ВАЖНО:</strong> Доступ к Apple Health требует явного разрешения. Вы можете в любой момент отозвать разрешение в настройках iOS.
+            </p>
 
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">6. Международная передача данных</h2>
-            <p className="text-muted-foreground leading-relaxed">
-              Поскольку вся обработка происходит локально на вашем устройстве, <strong>международная передача персональных данных не осуществляется</strong>.
+            <h3 className="text-xl font-semibold mb-3 mt-4">2.3 Уведомления (опционально)</h3>
+            <p className="text-muted-foreground leading-relaxed mb-2">
+              При включении уведомлений мы сохраняем локально:
+            </p>
+            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
+              <li>Расписание напоминаний о тренировках</li>
+              <li>Настройки времени уведомлений</li>
+            </ul>
+            <p className="text-muted-foreground leading-relaxed mt-2">
+              Все уведомления обрабатываются локально на вашем устройстве.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">7. Хранение данных</h2>
+            <h2 className="text-2xl font-semibold mb-4">3. КАК МЫ ИСПОЛЬЗУЕМ ИНФОРМАЦИЮ</h2>
             
-            <h3 className="text-xl font-semibold mb-3 mt-4">7.1 Локальное хранение</h3>
+            <p className="text-muted-foreground leading-relaxed mb-2">
+              Мы используем вашу информацию исключительно для:
+            </p>
             <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-              <li><strong>История тренировок:</strong> Хранится до удаления тренировок или удаления приложения</li>
-              <li><strong>Настройки пользователя:</strong> Сохраняются для функциональности приложения (язык, тема, предпочтения)</li>
-              <li><strong>Время хранения:</strong> До удаления приложения или ручной очистки данных</li>
+              <li>Отслеживания прогресса тренировок</li>
+              <li>Расчета статистики и достижений</li>
+              <li>Создания программ тренировок</li>
+              <li>Отправки напоминаний (если включены)</li>
+              <li>Синхронизации с Apple Health (если включена)</li>
             </ul>
 
-            <h3 className="text-xl font-semibold mb-3 mt-4">7.2 Автоматическое удаление</h3>
+            <p className="text-muted-foreground leading-relaxed mt-4 mb-2">
+              Мы <strong>НЕ используем</strong> ваши данные для:
+            </p>
             <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-              <li><strong>Временные файлы:</strong> Автоматически удаляются после использования</li>
-              <li><strong>Кэш данных:</strong> Очищается при превышении лимитов памяти</li>
+              <li>Рекламы или таргетинга</li>
+              <li>Аналитики или отслеживания</li>
+              <li>Продажи третьим лицам</li>
+              <li>Передачи на внешние серверы</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">8. Права пользователей</h2>
+            <h2 className="text-2xl font-semibold mb-4">4. ХРАНЕНИЕ ДАННЫХ</h2>
+            
+            <h3 className="text-xl font-semibold mb-3 mt-4">4.1 Локальное хранилище</h3>
+            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
+              <li>Все данные хранятся локально в защищенной базе данных SwiftData</li>
+              <li>Данные зашифрованы стандартным шифрованием iOS</li>
+              <li>Резервное копирование в iCloud (если включено в настройках iOS)</li>
+            </ul>
+
+            <h3 className="text-xl font-semibold mb-3 mt-4">4.2 Безопасность</h3>
+            <p className="text-muted-foreground leading-relaxed mb-2">
+              Мы применяем следующие меры безопасности:
+            </p>
+            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
+              <li>Использование встроенных механизмов безопасности iOS</li>
+              <li>Шифрование данных на уровне операционной системы</li>
+              <li>Защита данных через Keychain (для чувствительной информации)</li>
+              <li>Отсутствие передачи данных по сети</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">5. РЕЗЕРВНОЕ КОПИРОВАНИЕ И СИНХРОНИЗАЦИЯ</h2>
+            
+            <h3 className="text-xl font-semibold mb-3 mt-4">5.1 iCloud (опционально)</h3>
+            <p className="text-muted-foreground leading-relaxed mb-2">
+              Если вы включили резервное копирование iCloud на вашем устройстве:
+            </p>
+            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
+              <li>Данные приложения могут быть включены в резервную копию iCloud</li>
+              <li>Резервное копирование управляется Apple в соответствии с их политикой конфиденциальности</li>
+              <li>Мы <strong>НЕ имеем</strong> прямого доступа к вашим данным в iCloud</li>
+            </ul>
+
+            <p className="text-muted-foreground leading-relaxed mt-3">
+              <strong>Для отключения резервного копирования:</strong><br />
+              Настройки iOS → [Ваше имя] → iCloud → Управление хранилищем → Резервные копии → [Ваше устройство] → FitSteps (выкл)
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">6. ПРАВА ПОЛЬЗОВАТЕЛЯ</h2>
             <p className="text-muted-foreground leading-relaxed mb-3">
-              В соответствии с применимым законодательством, вы имеете следующие права:
+              У вас есть полный контроль над вашими данными:
             </p>
             
-            <h3 className="text-xl font-semibold mb-3 mt-4">8.1 Доступ и контроль</h3>
+            <h3 className="text-xl font-semibold mb-3 mt-4">6.1 Доступ к данным</h3>
             <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-              <li><strong>Просмотр данных:</strong> Доступ ко всем данным, обрабатываемым приложением, в Настройках</li>
-              <li><strong>Изменение настроек:</strong> Настройка параметров обработки данных в любое время</li>
-              <li><strong>Удаление данных:</strong> Очистка истории и кэша в настройках приложения</li>
+              <li>Все ваши данные доступны в приложении в любое время</li>
+              <li>Вы можете просматривать и редактировать любую информацию</li>
             </ul>
 
-            <h3 className="text-xl font-semibold mb-3 mt-4">8.2 Отзыв согласия</h3>
+            <h3 className="text-xl font-semibold mb-3 mt-4">6.2 Удаление данных</h3>
             <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-              <li><strong>Отключение разрешений:</strong> Отзыв доступа к данным о здоровье в Настройках iOS</li>
-              <li><strong>Ограничение функций:</strong> Использование базовых функций без доступа к персональным данным</li>
+              <li>Вы можете удалить отдельные тренировки, программы или упражнения</li>
+              <li>При удалении приложения все данные удаляются с устройства</li>
+              <li>Для полного удаления данных из резервной копии iCloud удалите приложение и резервную копию</li>
+            </ul>
+
+            <h3 className="text-xl font-semibold mb-3 mt-4">6.3 Экспорт данных</h3>
+            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
+              <li>Вы можете экспортировать данные через функцию Share</li>
+              <li>Экспорт доступен для программ, тренировок и статистики</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">9. Дети и конфиденциальность</h2>
-            <p className="text-muted-foreground leading-relaxed">
-              Наше приложение не предназначено для детей младше 13 лет. Мы сознательно не собираем персональные данные детей младше 13 лет.
-            </p>
-            <p className="text-muted-foreground leading-relaxed mt-2">
-              <strong>Если вы родитель или опекун и узнали, что ваш ребенок предоставил нам персональные данные, пожалуйста, свяжитесь с нами.</strong>
-            </p>
-          </section>
-
-          <section>
-            <h2 className="text-2xl font-semibold mb-4">10. Изменения в Политике конфиденциальности</h2>
+            <h2 className="text-2xl font-semibold mb-4">7. РАЗРЕШЕНИЯ ПРИЛОЖЕНИЯ</h2>
             
-            <h3 className="text-xl font-semibold mb-3 mt-4">10.1 Уведомление об изменениях</h3>
-            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-              <li>Мы можем обновлять данную Политику конфиденциальности время от времени</li>
-              <li>Существенные изменения будут сообщены через обновление приложения</li>
-              <li>Дата последнего обновления указана в начале документа</li>
-            </ul>
-
-            <h3 className="text-xl font-semibold mb-3 mt-4">10.2 Продолжение использования</h3>
+            <h3 className="text-xl font-semibold mb-3 mt-4">7.1 Обязательные разрешения</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Продолжая использовать приложение после внесения изменений, вы соглашаетесь с обновленной Политикой конфиденциальности.
+              Нет обязательных разрешений — приложение работает без доступа к системным функциям.
+            </p>
+
+            <h3 className="text-xl font-semibold mb-3 mt-4">7.2 Опциональные разрешения</h3>
+            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
+              <li><strong>Фотографии (Photo Library)</strong> — для добавления фотографий упражнений (только выбранные фото)</li>
+              <li><strong>Apple Health</strong> — для синхронизации данных о тренировках</li>
+              <li><strong>Уведомления</strong> — для напоминаний о тренировках</li>
+            </ul>
+            <p className="text-muted-foreground leading-relaxed mt-2">
+              Все разрешения опциональны и могут быть отозваны в настройках iOS.
             </p>
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold mb-4">11. Контактная информация</h2>
+            <h2 className="text-2xl font-semibold mb-4">8. ДЕТИ</h2>
             <p className="text-muted-foreground leading-relaxed">
-              Если у вас есть вопросы о данной Политике конфиденциальности или обработке ваших данных, свяжитесь с нами:
+              Приложение предназначено для пользователей от 13 лет и старше. Мы сознательно не собираем информацию о детях младше 13 лет. Если вы родитель и обнаружили, что ваш ребенок предоставил нам персональную информацию, свяжитесь с нами.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">9. СТОРОННИЕ СЕРВИСЫ</h2>
+            
+            <p className="text-muted-foreground leading-relaxed mb-2">
+              Мы <strong>НЕ используем:</strong>
+            </p>
+            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
+              <li>Аналитические сервисы (Google Analytics, Firebase и т.д.)</li>
+              <li>Рекламные сети</li>
+              <li>Сервисы отслеживания</li>
+              <li>Социальные медиа SDK</li>
+              <li>Облачные базы данных третьих лиц</li>
+            </ul>
+
+            <p className="text-muted-foreground leading-relaxed mt-3 mb-2">
+              <strong>Единственная интеграция:</strong>
+            </p>
+            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
+              <li>Apple Health (опционально, управляется вами)</li>
+              <li>Apple iCloud (опционально, для резервного копирования через iOS)</li>
+            </ul>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">10. ИЗМЕНЕНИЯ В ПОЛИТИКЕ КОНФИДЕНЦИАЛЬНОСТИ</h2>
+            <p className="text-muted-foreground leading-relaxed mb-2">
+              Мы можем обновлять эту Политику конфиденциальности время от времени. При внесении существенных изменений мы:
+            </p>
+            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
+              <li>Обновим дату "Дата вступления в силу" вверху документа</li>
+              <li>Уведомим вас через приложение при следующем запуске</li>
+              <li>Опубликуем обновленную версию в App Store</li>
+            </ul>
+            <p className="text-muted-foreground leading-relaxed mt-3">
+              Продолжая использовать приложение после изменений, вы соглашаетесь с обновленной Политикой.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">11. КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+            <p className="text-muted-foreground leading-relaxed mb-2">
+              Если у вас есть вопросы или опасения относительно этой Политики конфиденциальности, пожалуйста, свяжитесь с нами:
             </p>
             <p className="text-muted-foreground leading-relaxed mt-2">
-              <strong>Email:</strong> spiro.boris@yandex.ru
+              <strong>Email:</strong> spiro.boris@yandex.ru<br />
+              <strong>Разработчик:</strong> Boris Spiro
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-4">12. СОГЛАСИЕ</h2>
+            <p className="text-muted-foreground leading-relaxed">
+              Используя FitSteps, вы соглашаетесь с условиями данной Политики конфиденциальности.
+            </p>
+          </section>
+
+          <section className="bg-accent/10 p-6 rounded-lg mt-6">
+            <h2 className="text-2xl font-semibold mb-4">КРАТКОЕ РЕЗЮМЕ:</h2>
+            <ul className="space-y-2 text-muted-foreground">
+              <li>✓ Все данные хранятся только на вашем устройстве</li>
+              <li>✓ Нет серверов, нет сбора данных, нет рекламы</li>
+              <li>✓ Полный контроль над вашими данными</li>
+              <li>✓ Интеграция с Apple Health — опциональна</li>
+              <li>✓ Открытый и прозрачный подход к конфиденциальности</li>
+            </ul>
+            <p className="text-muted-foreground mt-4 font-semibold">
+              FitSteps разработан с философией "конфиденциальность прежде всего".
             </p>
           </section>
         </div>
