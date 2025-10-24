@@ -8,194 +8,108 @@ const ScanMeProPrivacy = () => {
         <section className="mb-16 prose prose-invert max-w-none">
           <h2 className="text-2xl font-semibold mb-4">PRIVACY POLICY</h2>
 
-          <h3 className="text-xl font-semibold mt-6 mb-3">1. INTRODUCTION</h3>
           <p>
-            Thank you for using ScanMe Pro ("Application"). Your privacy is extremely important to us. 
-            This Privacy Policy explains how we collect, use, store, and protect your information when 
-            using our iOS mobile application.
-          </p>
-          <p className="font-semibold">
-            IMPORTANT: ScanMe Pro is a privacy-first application. We DO NOT collect, transmit, or sell 
-            your personal data to third parties.
+            ScanMe Pro ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy 
+            explains how we collect, use, and safeguard your information when you use our mobile application 
+            ScanMe Pro (the "App").
           </p>
 
-          <h3 className="text-xl font-semibold mt-6 mb-3">2. INFORMATION WE COLLECT</h3>
+          <h3 className="text-xl font-semibold mt-6 mb-3">Information We Collect</h3>
+
+          <h4 className="text-lg font-semibold mt-4 mb-2">1. Information You Provide</h4>
+          <ul>
+            <li><strong>Documents and Images:</strong> When you scan documents or import images, these files are stored locally on your device</li>
+            <li><strong>Signatures:</strong> Digital signatures you create are stored locally on your device</li>
+            <li><strong>User Preferences:</strong> App settings and preferences (language, scan quality, theme)</li>
+          </ul>
+
+          <h4 className="text-lg font-semibold mt-4 mb-2">2. Automatically Collected Information</h4>
+          <ul>
+            <li><strong>Device Information:</strong> Device model, operating system version, unique device identifiers</li>
+            <li><strong>Usage Data:</strong> App features used, crash reports, performance data</li>
+            <li><strong>iCloud Data:</strong> If you enable iCloud sync, your documents are stored in your personal iCloud account</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold mt-6 mb-3">How We Use Your Information</h3>
+          <p>We use the collected information to:</p>
+          <ul>
+            <li>Provide core scanning and document management functionality</li>
+            <li>Sync your documents across your devices via iCloud (if enabled)</li>
+            <li>Improve app performance and fix bugs</li>
+            <li>Analyze usage patterns to enhance user experience</li>
+            <li>Provide customer support</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold mt-6 mb-3">Data Storage and Security</h3>
+
+          <h4 className="text-lg font-semibold mt-4 mb-2">Local Storage:</h4>
+          <ul>
+            <li>All documents, scans, and signatures are stored locally on your device</li>
+            <li>Secure Vault documents are encrypted using AES-256 encryption</li>
+            <li>PIN codes and biometric data are stored in iOS Keychain</li>
+          </ul>
+
+          <h4 className="text-lg font-semibold mt-4 mb-2">iCloud Storage:</h4>
+          <ul>
+            <li>When iCloud sync is enabled, documents are stored in your personal iCloud account</li>
+            <li>We do not have access to your iCloud data</li>
+            <li>Apple's privacy policy applies to iCloud storage</li>
+          </ul>
+
+          <h4 className="text-lg font-semibold mt-4 mb-2">Security Measures:</h4>
+          <ul>
+            <li>End-to-end encryption for Secure Vault documents</li>
+            <li>Biometric authentication (Face ID/Touch ID) support</li>
+            <li>No third-party access to your documents</li>
+            <li>No cloud storage on our servers</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold mt-6 mb-3">Data Sharing</h3>
           
-          <h4 className="text-lg font-semibold mt-4 mb-2">2.1 Local Data</h4>
-          <p>All document data is stored exclusively on your device:</p>
+          <p className="font-semibold">We DO NOT:</p>
           <ul>
-            <li>Scanned documents and PDF files</li>
-            <li>OCR-recognized text</li>
-            <li>Document signatures and annotations</li>
-            <li>Document folders and organization</li>
-            <li>App settings and preferences</li>
+            <li>Sell your personal information to third parties</li>
+            <li>Share your documents with any external services</li>
+            <li>Upload your data to our servers (except iCloud sync)</li>
+            <li>Use your documents for training AI models</li>
+            <li>Track your location</li>
           </ul>
 
-          <h4 className="text-lg font-semibold mt-4 mb-2">2.2 iCloud Data (Optional)</h4>
-          <p>With your consent, the app can:</p>
+          <p className="font-semibold mt-4">We MAY share information only in these limited cases:</p>
           <ul>
-            <li>Synchronize documents across your devices via iCloud</li>
-            <li>Store encrypted backups in your personal iCloud storage</li>
-          </ul>
-          <p className="font-semibold">
-            IMPORTANT: iCloud access requires explicit permission. You can revoke access at any time 
-            in iOS settings.
-          </p>
-
-          <h4 className="text-lg font-semibold mt-4 mb-2">2.3 Camera Access (Required for Scanning)</h4>
-          <p>For document scanning, we require:</p>
-          <ul>
-            <li>Camera access to capture document images</li>
-            <li>All photos are processed locally and never transmitted</li>
+            <li>When required by law or legal process</li>
+            <li>To protect our rights or the safety of users</li>
+            <li>With your explicit consent</li>
           </ul>
 
-          <h4 className="text-lg font-semibold mt-4 mb-2">2.4 Photo Library (Optional)</h4>
-          <p>To import existing documents:</p>
+          <h3 className="text-xl font-semibold mt-6 mb-3">Third-Party Services</h3>
+          <p>The App uses the following Apple services:</p>
           <ul>
-            <li>Access to selected photos only (not entire library)</li>
-            <li>Imported images are converted to PDFs locally</li>
+            <li><strong>iCloud:</strong> For optional document synchronization (controlled by you)</li>
+            <li><strong>App Store:</strong> For app distribution and updates</li>
+            <li><strong>Apple Vision Framework:</strong> For on-device OCR processing</li>
+          </ul>
+          <p>These services are governed by Apple's Privacy Policy.</p>
+
+          <h3 className="text-xl font-semibold mt-6 mb-3">Your Rights</h3>
+          <p>You have the right to:</p>
+          <ul>
+            <li>Access all your data (stored locally on your device)</li>
+            <li>Delete your data at any time by deleting the app</li>
+            <li>Disable iCloud sync in app settings</li>
+            <li>Export your documents in standard formats (PDF, images)</li>
+            <li>Contact us with privacy-related questions</li>
           </ul>
 
-          <h3 className="text-xl font-semibold mt-6 mb-3">3. HOW WE USE INFORMATION</h3>
-          <p>We use your information exclusively for:</p>
-          <ul>
-            <li>Converting scanned images to PDF documents</li>
-            <li>Performing OCR text recognition</li>
-            <li>Adding signatures and annotations</li>
-            <li>Organizing documents in folders</li>
-            <li>Syncing with iCloud (if enabled)</li>
-          </ul>
-
-          <p>We DO NOT use your data for:</p>
-          <ul>
-            <li>Advertising or targeting</li>
-            <li>Analytics or tracking</li>
-            <li>Selling to third parties</li>
-            <li>Transmission to external servers</li>
-          </ul>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3">4. DATA STORAGE</h3>
-          
-          <h4 className="text-lg font-semibold mt-4 mb-2">4.1 Local Storage</h4>
-          <ul>
-            <li>All documents stored in secure local database</li>
-            <li>Data encrypted with iOS standard encryption</li>
-            <li>Backup to iCloud (if enabled in iOS settings)</li>
-          </ul>
-
-          <h4 className="text-lg font-semibold mt-4 mb-2">4.2 Security</h4>
-          <p>We implement the following security measures:</p>
-          <ul>
-            <li>Built-in iOS security mechanisms</li>
-            <li>OS-level data encryption</li>
-            <li>Keychain protection for sensitive data</li>
-            <li>No network data transmission</li>
-          </ul>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3">5. BACKUP AND SYNCHRONIZATION</h3>
-          
-          <h4 className="text-lg font-semibold mt-4 mb-2">5.1 iCloud (Optional)</h4>
-          <p>If you have enabled iCloud backup on your device:</p>
-          <ul>
-            <li>App data may be included in iCloud backup</li>
-            <li>Backup is managed by Apple according to their privacy policy</li>
-            <li>We have NO direct access to your data in iCloud</li>
-          </ul>
-
-          <p>To disable iCloud backup:</p>
-          <p className="italic">iOS Settings → [Your Name] → iCloud → Manage Storage → Backups → [Your Device] → ScanMe Pro (off)</p>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3">6. USER RIGHTS</h3>
-          <p>You have full control over your data:</p>
-
-          <h4 className="text-lg font-semibold mt-4 mb-2">6.1 Data Access</h4>
-          <ul>
-            <li>All your documents are accessible in the app at any time</li>
-            <li>You can view, edit, and manage any document</li>
-          </ul>
-
-          <h4 className="text-lg font-semibold mt-4 mb-2">6.2 Data Deletion</h4>
-          <ul>
-            <li>You can delete individual documents or folders</li>
-            <li>Deleting the app removes all data from device</li>
-            <li>To fully remove from iCloud backup, delete app and backup</li>
-          </ul>
-
-          <h4 className="text-lg font-semibold mt-4 mb-2">6.3 Data Export</h4>
-          <ul>
-            <li>Export documents via Share function</li>
-            <li>Export as PDF or original format</li>
-          </ul>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3">7. APP PERMISSIONS</h3>
-          
-          <h4 className="text-lg font-semibold mt-4 mb-2">7.1 Required Permissions</h4>
-          <ul>
-            <li>Camera - for scanning documents</li>
-          </ul>
-
-          <h4 className="text-lg font-semibold mt-4 mb-2">7.2 Optional Permissions</h4>
-          <ul>
-            <li>Photos (Photo Library) - to import existing images</li>
-            <li>iCloud - for document synchronization</li>
-            <li>Notifications - for reminders and alerts</li>
-          </ul>
-
-          <p>All permissions can be revoked in iOS settings.</p>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3">8. CHILDREN</h3>
+          <h3 className="text-xl font-semibold mt-6 mb-3">Changes to This Policy</h3>
           <p>
-            The app is intended for users aged 13 and above. We do not knowingly collect information 
-            from children under 13. If you are a parent and discover that your child has provided us 
-            with personal information, please contact us.
+            We may update this Privacy Policy from time to time. We will notify you of any changes by 
+            updating the "Last Updated" date at the top of this policy.
           </p>
 
-          <h3 className="text-xl font-semibold mt-6 mb-3">9. THIRD-PARTY SERVICES</h3>
-          <p>We DO NOT use:</p>
-          <ul>
-            <li>Analytics services (Google Analytics, Firebase, etc.)</li>
-            <li>Advertising networks</li>
-            <li>Tracking services</li>
-            <li>Social media SDKs</li>
-            <li>Third-party cloud databases</li>
-          </ul>
-
-          <p>The only integrations:</p>
-          <ul>
-            <li>Apple iCloud (optional, managed by you)</li>
-          </ul>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3">10. CHANGES TO PRIVACY POLICY</h3>
-          <p>
-            We may update this Privacy Policy from time to time. When making significant changes, we will:
-          </p>
-          <ul>
-            <li>Update the "Effective Date" at the top of this document</li>
-            <li>Notify you through the app on next launch</li>
-            <li>Publish the updated version in the App Store</li>
-          </ul>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3">11. CONTACT INFORMATION</h3>
-          <p>
-            If you have questions or concerns about this Privacy Policy, please contact us:
-          </p>
-          <p>Email: spiro.boris@yandex.ru</p>
-          <p>Developer: Boris Spiro</p>
-
-          <h3 className="text-xl font-semibold mt-6 mb-3">12. CONSENT</h3>
-          <p>By using ScanMe Pro, you agree to the terms of this Privacy Policy.</p>
-
-          <div className="bg-accent/10 p-4 rounded-lg mt-6">
-            <h4 className="font-semibold mb-2">QUICK SUMMARY:</h4>
-            <ul className="space-y-1">
-              <li>✓ All documents stored only on your device</li>
-              <li>✓ No servers, no data collection, no ads</li>
-              <li>✓ Full control over your documents</li>
-              <li>✓ iCloud integration - optional</li>
-              <li>✓ Open and transparent privacy approach</li>
-            </ul>
-            <p className="mt-2 font-semibold">ScanMe Pro is built with a "privacy-first" philosophy.</p>
-          </div>
+          <h3 className="text-xl font-semibold mt-6 mb-3">Contact Us</h3>
+          <p>If you have questions about this Privacy Policy, please contact us:</p>
+          <p><strong>Email:</strong> spiro.boris@yandex.ru</p>
         </section>
 
         {/* Russian Version */}
