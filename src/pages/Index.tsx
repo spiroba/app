@@ -67,6 +67,14 @@ const Index = () => {
       appStoreLink: "#",
       privacyLink: "/fitsteps-privacy",
     },
+    {
+      title: "ScanMe Pro",
+      description:
+        "Превращайте бумажные документы в цифровые PDF мгновенно! OCR-распознавание, подписи, защищённое хранилище и iCloud синхронизация.",
+      logoUrl: "/lovable-uploads/scanme-pro-icon.png",
+      appStoreLink: "#",
+      privacyLink: "/scanme-pro-privacy",
+    },
   ];
 
   return (

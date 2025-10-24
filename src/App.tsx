@@ -13,6 +13,7 @@ import ScanMeIOSPrivacy from "./pages/ScanMeIOSPrivacy";
 import CheckersPrivacy from "./pages/CheckersPrivacy";
 import CleanUpGuruPrivacy from "./pages/CleanUpGuruPrivacy";
 import FitStepsPrivacy from "./pages/FitStepsPrivacy";
+import ScanMeProPrivacy from "./pages/ScanMeProPrivacy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -33,6 +34,7 @@ const App = () => (
           <Route path="/checkers-privacy" element={<CheckersPrivacy />} />
           <Route path="/cleanup-guru-privacy" element={<CleanUpGuruPrivacy />} />
           <Route path="/fitsteps-privacy" element={<FitStepsPrivacy />} />
+          <Route path="/scanme-pro-privacy" element={<ScanMeProPrivacy />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
