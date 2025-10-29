@@ -12,10 +12,10 @@ const Index = () => {
       privacyLink: "/privacy",
     },
     {
-      title: "TaskMonster",
+      title: "TaskSteps",
       description:
-        "TaskMonster — твой новый стиль продуктивности! Хватит тонуть в бесконечных списках дел! TaskMonster — это не просто планировщик, а твой личный тренер по задачам, который помогает разбивать большие цели на маленькие победы каждый день.",
-      logoUrl: "/lovable-uploads/d649c7e1-9e3a-42c4-b979-03bf0777c7fe.png",
+        "TaskSteps — твой новый стиль продуктивности! Хватит тонуть в бесконечных списках дел! TaskSteps — это не просто планировщик, а твой личный тренер по задачам, который помогает разбивать большие цели на маленькие победы каждый день.",
+      logoUrl: "/lovable-uploads/tasksteps-icon.png",
       appStoreLink: "https://apps.apple.com/ru/app/taskbites/id6744850540",
       privacyLink: "/taskbites-privacy",
     },
