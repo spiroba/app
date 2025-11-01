@@ -2,16 +2,16 @@ const ScanMeProPrivacy = () => {
   return (
     <div className="min-h-screen bg-background text-foreground p-8">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-4xl font-bold mb-8 text-center">Privacy Policy - ScanMe Pro</h1>
+        <h1 className="text-4xl font-bold mb-8 text-center">Privacy Policy - Scan2Convert</h1>
         
         {/* English Version */}
         <section className="mb-16 prose prose-invert max-w-none">
           <h2 className="text-2xl font-semibold mb-4">PRIVACY POLICY</h2>
 
           <p>
-            ScanMe Pro ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy 
+            Scan2Convert ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy 
             explains how we collect, use, and safeguard your information when you use our mobile application 
-            ScanMe Pro (the "App").
+            Scan2Convert (the "App").
           </p>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Information We Collect</h3>
@@ -107,8 +107,17 @@ const ScanMeProPrivacy = () => {
             updating the "Last Updated" date at the top of this policy.
           </p>
 
+          <h3 className="text-xl font-semibold mt-6 mb-3">Key Points</h3>
+          <ul>
+            <li>✅ No data collection on external servers - all data stays on your device</li>
+            <li>✅ Optional iCloud sync - you control it</li>
+            <li>✅ AES-256 encryption for Secure Vault</li>
+            <li>✅ No third-party sharing of your documents</li>
+            <li>✅ No tracking or analytics that identify you personally</li>
+            <li>✅ Full data control - delete anytime by removing the app</li>
+          </ul>
+
           <h3 className="text-xl font-semibold mt-6 mb-3">Contact Us</h3>
-          <p>If you have questions about this Privacy Policy, please contact us:</p>
           <p><strong>Email:</strong> spiro.boris@yandex.ru</p>
         </section>
       </div>

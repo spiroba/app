@@ -68,10 +68,10 @@ const Index = () => {
       privacyLink: "/fitsteps-privacy",
     },
     {
-      title: "ScanMe Pro",
+      title: "Scan2Convert",
       description:
         "Превращайте бумажные документы в цифровые PDF мгновенно! OCR-распознавание, подписи, защищённое хранилище и iCloud синхронизация.",
-      logoUrl: "/lovable-uploads/scanme-pro-icon.png",
+      logoUrl: "/lovable-uploads/scan2convert-icon.png",
       appStoreLink: "#",
       privacyLink: "/scanme-pro-privacy",
     },
