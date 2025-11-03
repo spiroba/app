@@ -75,6 +75,14 @@ const Index = () => {
       appStoreLink: "#",
       privacyLink: "/scanme-pro-privacy",
     },
+    {
+      title: "TravelMate",
+      description:
+        "Планируйте идеальные путешествия за минуты. Создавайте детальные маршруты, контролируйте расходы и не забывайте важное с готовыми чек-листами. Ваш умный компаньон в каждой поездке",
+      logoUrl: "/lovable-uploads/travelmate-icon.png",
+      appStoreLink: "#",
+      privacyLink: "/travelmate-privacy",
+    },
   ];
 
   return (
