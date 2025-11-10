@@ -68,7 +68,7 @@ const Index = () => {
       privacyLink: "/fitsteps-privacy",
     },
     {
-      title: "Scan2Convert",
+      title: "PDF Studio",
       description:
         "Превращайте бумажные документы в цифровые PDF мгновенно! OCR-распознавание, подписи, защищённое хранилище и iCloud синхронизация.",
       logoUrl: "/lovable-uploads/scan2convert-icon.png",
