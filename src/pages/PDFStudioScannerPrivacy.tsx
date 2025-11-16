@@ -214,6 +214,219 @@ const PDFStudioScannerPrivacy = () => {
             © 2025 App by Spiro. Все права защищены.
           </p>
         </section>
+
+        {/* English Version */}
+        <section className="mb-16 prose prose-invert max-w-none space-y-6 border-t border-border pt-16">
+          <h1 className="text-4xl font-bold mb-8 text-center">Privacy Policy - PDF Studio</h1>
+          
+          <p className="text-sm text-muted-foreground mb-8">
+            <strong>Last Updated: November 16, 2025</strong>
+          </p>
+
+          <h2 className="text-2xl font-semibold">Introduction</h2>
+          <p>
+            PDF Studio ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use our mobile application PDF Studio (the "App").
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8">Information We Collect</h2>
+          
+          <h3 className="text-xl font-semibold mt-6">Information You Provide</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            <li><strong>Documents and Files:</strong> PDF files and images you create, import, or convert in the App</li>
+            <li><strong>Signatures:</strong> Digital signatures you create and save in the App</li>
+            <li><strong>Settings and Preferences:</strong> Your language choice, theme settings, and app configuration</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold mt-6">Automatically Collected Information</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            <li><strong>Device Information:</strong> Device model, operating system version, and unique device identifiers</li>
+            <li><strong>Usage Data:</strong> App features used, conversion statistics, and performance metrics</li>
+            <li><strong>Region Information:</strong> Country/region code for subscription availability determination (EU compliance)</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold mt-6">iCloud Sync (Optional)</h3>
+          <p>If you enable iCloud sync:</p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Your documents, folders, and app data are stored in your personal iCloud account</li>
+            <li>We do not have access to your iCloud data</li>
+            <li>Apple's iCloud Privacy Policy applies to synced data</li>
+          </ul>
+
+          <h2 className="text-2xl font-semibold mt-8">How We Use Your Information</h2>
+          <p>We use the collected information for:</p>
+
+          <h3 className="text-xl font-semibold mt-6">1. Providing App Functionality</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Processing PDF conversions and document operations</li>
+            <li>Storing and managing your documents and signatures</li>
+            <li>Syncing data between your devices via iCloud (if enabled)</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold mt-6">2. Improving User Experience</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Remembering your preferences and settings</li>
+            <li>Providing localized content in your chosen language</li>
+            <li>Optimizing app performance</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold mt-6">3. Managing Subscriptions</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Processing in-app purchases through Apple's App Store</li>
+            <li>Determining regional subscription availability</li>
+            <li>Managing free tier limits (outside EU)</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold mt-6">4. Legal Compliance</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Complying with EU Digital Services Act (DSA) requirements</li>
+            <li>Providing free unlimited access to EU users as required by law</li>
+          </ul>
+
+          <h2 className="text-2xl font-semibold mt-8">Data Storage and Security</h2>
+
+          <h3 className="text-xl font-semibold mt-6">Local Storage</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>All documents and files are stored <strong>locally on your device</strong></li>
+            <li>We do not upload your documents to our servers</li>
+            <li>Your data remains under your control</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold mt-6">iCloud Storage (Optional)</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>When enabled, data is encrypted and stored in your personal iCloud account</li>
+            <li>We do not have access to your iCloud data</li>
+            <li>You can disable iCloud sync anytime in Settings</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold mt-6">Security Measures</h3>
+          <p>We implement industry-standard security measures to protect your data:</p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Encryption of data at rest and in transit</li>
+            <li>Secure in-app purchase handling through Apple's StoreKit</li>
+            <li>No collection of personally identifiable information</li>
+          </ul>
+
+          <h2 className="text-2xl font-semibold mt-8">Third-Party Services</h2>
+
+          <h3 className="text-xl font-semibold mt-6">Apple Services</h3>
+          <p>The App uses the following Apple services:</p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li><strong>App Store / StoreKit:</strong> For in-app purchases and subscriptions</li>
+            <li><strong>iCloud:</strong> For optional data synchronization (user-controlled)</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold mt-6">No Third-Party Analytics</h3>
+          <p>We <strong>do not use</strong> third-party analytics, tracking, or advertising services.</p>
+
+          <h2 className="text-2xl font-semibold mt-8">Your Rights and Choices</h2>
+
+          <h3 className="text-xl font-semibold mt-6">Data Control</h3>
+          <p>You have full control over your data:</p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li><strong>Access:</strong> View all your documents and data in the App</li>
+            <li><strong>Deletion:</strong> Delete individual documents or clear all app data</li>
+            <li><strong>Export:</strong> Share or export your documents anytime</li>
+            <li><strong>iCloud Sync:</strong> Enable or disable iCloud sync in Settings</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold mt-6">EU User Rights</h3>
+          <p>If you are located in the European Union, you have additional rights under GDPR:</p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Right to access your data</li>
+            <li>Right to rectification</li>
+            <li>Right to erasure</li>
+            <li>Right to data portability</li>
+            <li>Right to object to processing</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold mt-6">Managing Subscriptions</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Manage subscriptions through your Apple ID account settings</li>
+            <li>Cancel subscriptions anytime without penalty</li>
+            <li>EU users receive full app functionality for free</li>
+          </ul>
+
+          <h2 className="text-2xl font-semibold mt-8">Regional Specifics</h2>
+
+          <h3 className="text-xl font-semibold mt-6">EU Users</h3>
+          <p>In accordance with EU law:</p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li><strong>No Subscription Required:</strong> Full app functionality is free</li>
+            <li><strong>No Limits:</strong> Unlimited conversions and documents</li>
+            <li><strong>Data Minimization:</strong> We collect minimum data necessary for app operation</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold mt-6">Non-EU Users</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            <li><strong>Free Tier:</strong> 3 conversions per day, up to 5 documents</li>
+            <li><strong>Premium Subscriptions:</strong> Available for unlimited usage</li>
+            <li><strong>Optional Purchase:</strong> All subscriptions are optional</li>
+          </ul>
+
+          <h2 className="text-2xl font-semibold mt-8">Children's Privacy</h2>
+          <p>
+            PDF Studio is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If you believe we have collected information from a child under 13, please contact us immediately.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8">Changes to This Privacy Policy</h2>
+          <p>We may update this Privacy Policy from time to time. We will notify you of any changes by:</p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Updating the "Last Updated" date at the top of this policy</li>
+            <li>Displaying an in-app notification about significant changes</li>
+            <li>Posting the updated policy in the App</li>
+          </ul>
+          <p>
+            Your continued use of the App after changes means acceptance of the updated Privacy Policy.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8">Data Retention</h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li><strong>Documents:</strong> Stored on your device until you delete them</li>
+            <li><strong>Preferences:</strong> Saved until App deletion or settings reset</li>
+            <li><strong>iCloud Data:</strong> Saved in your iCloud account according to your iCloud settings</li>
+            <li><strong>Usage Statistics:</strong> Stored locally and reset daily/on app deletion</li>
+          </ul>
+
+          <h2 className="text-2xl font-semibold mt-8">International Data Transfers</h2>
+          <p>
+            Your data is stored locally on your device or in your personal iCloud account. We do not transfer your data internationally. If you use iCloud, Apple's data transfer policies apply.
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8">Contact Us</h2>
+          <p>If you have questions, concerns, or requests regarding this Privacy Policy or your data, please contact us:</p>
+          <p className="mt-4">
+            <strong>Email:</strong> spiro.boris@yandex.ru<br />
+            <strong>App:</strong> PDF Studio
+          </p>
+
+          <h2 className="text-2xl font-semibold mt-8">Legal Compliance</h2>
+          <p>This Privacy Policy complies with:</p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>General Data Protection Regulation (GDPR)</li>
+            <li>California Consumer Privacy Act (CCPA)</li>
+            <li>EU Digital Services Act (DSA)</li>
+            <li>Apple App Store Review Guidelines</li>
+          </ul>
+
+          <div className="mt-12 p-6 bg-muted/50 rounded-lg">
+            <h2 className="text-2xl font-semibold mb-4">Summary</h2>
+            <ul className="space-y-2">
+              <li><strong>What we collect:</strong> Documents you create, settings you choose, and basic device information</li>
+              <li><strong>How we use it:</strong> To provide app functionality and improve your experience</li>
+              <li><strong>Where it's stored:</strong> On your device and optionally in your iCloud account</li>
+              <li><strong>Who we share with:</strong> No one - your data remains private</li>
+              <li><strong>Your control:</strong> Full access to view, export, or delete your data anytime</li>
+            </ul>
+          </div>
+
+          <p className="mt-8 text-center font-semibold text-lg">
+            PDF Studio respects your privacy. Your documents belong to you and remain on your device.
+          </p>
+
+          <p className="text-center text-muted-foreground mt-8">
+            © 2025 App by Spiro. All rights reserved.
+          </p>
+        </section>
       </div>
     </div>
   );
