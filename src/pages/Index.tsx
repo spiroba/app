@@ -83,6 +83,14 @@ const Index = () => {
       appStoreLink: "#",
       privacyLink: "/travelmate-privacy",
     },
+    {
+      title: "PDF Studio - Сканер и Редактор",
+      description:
+        "Лучшее приложение для работы с PDF на iPhone и iPad. Конвертируйте фото в PDF, сканируйте документы, редактируйте и объединяйте файлы!",
+      logoUrl: "/lovable-uploads/pdf-studio-scanner-icon.png",
+      appStoreLink: "#",
+      privacyLink: "/pdf-studio-scanner-privacy",
+    },
   ];
 
   return (
