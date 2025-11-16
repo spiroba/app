@@ -15,6 +15,7 @@ import CleanUpGuruPrivacy from "./pages/CleanUpGuruPrivacy";
 import FitStepsPrivacy from "./pages/FitStepsPrivacy";
 import ScanMeProPrivacy from "./pages/ScanMeProPrivacy";
 import TravelMatePrivacy from "./pages/TravelMatePrivacy";
+import PDFStudioScannerPrivacy from "./pages/PDFStudioScannerPrivacy";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -37,6 +38,7 @@ const App = () => (
           <Route path="/fitsteps-privacy" element={<FitStepsPrivacy />} />
           <Route path="/scanme-pro-privacy" element={<ScanMeProPrivacy />} />
           <Route path="/travelmate-privacy" element={<TravelMatePrivacy />} />
+          <Route path="/pdf-studio-scanner-privacy" element={<PDFStudioScannerPrivacy />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
