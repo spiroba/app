@@ -50,6 +50,7 @@ const Index = () => {
       logoUrl: "/lovable-uploads/ba599e25-5b12-4f2e-88fb-790c0b89b639.png",
       appStoreLink: "#",
       privacyLink: "/checkers-privacy",
+      privacyLink2: "/checkers-privacy-alt",
     },
     {
       title: "CleanUp Guru",

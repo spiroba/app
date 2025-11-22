@@ -10,6 +10,7 @@ interface AppCardProps {
   googlePlayLink?: string;
   ruStoreLink?: string;
   privacyLink?: string;
+  privacyLink2?: string;
 }
 
 export const AppCard = ({
@@ -20,6 +21,7 @@ export const AppCard = ({
   googlePlayLink,
   ruStoreLink,
   privacyLink,
+  privacyLink2,
 }: AppCardProps) => {
   return (
     <motion.div
@@ -65,12 +67,25 @@ export const AppCard = ({
           </a>
         )}
         {privacyLink && (
-          <Link
-            to={privacyLink}
-            className="text-xs text-accent hover:text-accent/80 transition-colors underline underline-offset-2"
-          >
-            Политика конфиденциальности
-          </Link>
+          <div className="flex gap-2 items-center">
+            <Link
+              to={privacyLink}
+              className="text-xs text-accent hover:text-accent/80 transition-colors underline underline-offset-2"
+            >
+              Политика конфиденциальности
+            </Link>
+            {privacyLink2 && (
+              <>
+                <span className="text-xs text-muted-foreground">|</span>
+                <Link
+                  to={privacyLink2}
+                  className="text-xs text-accent hover:text-accent/80 transition-colors underline underline-offset-2"
+                >
+                  EN
+                </Link>
+              </>
+            )}
+          </div>
         )}
       </div>
     </motion.div>
