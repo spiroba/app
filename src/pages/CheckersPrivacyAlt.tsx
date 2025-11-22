@@ -84,7 +84,11 @@ const CheckersPrivacyAlt = () => {
           <p>We may periodically update the Policy. The current version is published as part of the Application and/or on the project page. The effective date is indicated at the top of the document. By continuing to use the Application after the Policy changes, you agree to the updated terms.</p>
 
           <h2>9. Contact</h2>
-          <p>For privacy and user rights questions, contact the developer through the "Developer Support" section on the Application page in the App Store.</p>
+          <p>For privacy and user rights questions, contact the developer:</p>
+          <ul>
+            <li>Email: <a href="mailto:spiro.boris@yandex.ru" className="text-accent hover:text-accent/80">spiro.boris@yandex.ru</a></li>
+            <li>Through the "Developer Support" section on the Application page in the App Store</li>
+          </ul>
 
           <h2>10. Summary</h2>
           <ul>
